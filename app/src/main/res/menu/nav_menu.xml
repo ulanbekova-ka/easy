@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/followed"
+        android:icon="@drawable/followed"
+        android:title="@string/shop"  />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="@string/search" />
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/cart"
+        android:title="@string/cart" />
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/favourite"
+        android:title="@string/fav"  />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/account"
+        android:title="@string/account" />
+</menu>

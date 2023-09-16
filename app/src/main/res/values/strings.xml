@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Easy Shopping</string>
+    <string name="error">Ошибка</string>
+    <string name="attention">Уведомление</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">Ok</string>
+    <string name="empty_label">Пусто...</string>
+    <string name="no">Нет</string>
+    <string name="create">Создать</string>
+    <string name="done">Готово</string>
+    <string name="date">Дата</string>
+    <string name="clearly">Понятно</string>
+    <string name="yes">Да</string>
+    <string name="return_to_main">На главную</string>
+    <string name="save">Сохранить</string>
+    <string name="check">Проверить</string>
+    <string name="app_token_expired_error">Ошибка при отправке данных! Авторизуйтесь в приложении!</string>
+    <string name="who_title">Кто вы?</string>
+    <string name="customer">Я покупатель</string>
+    <string name="seller">Я продавец</string>
+
+    <!-- LOGIN -->
+    <string name="login_username">Логин</string>
+    <string name="login_password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="login_password_repeat">Повторите пароль</string>
+    <string name="register_client">Регистрация покупателя</string>
+    <string name="register_shop">Регистрация продавца</string>
+    <string name="full_name">Имя Фамилия</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="birthday_error">Формат даты неверный</string>
+    <string name="name">Название</string>
+    <string name="shop">Подписки</string>
+    <string name="cart">Корзина</string>
+    <string name="fav">Избранное</string>
+    <string name="account">Профиль</string>
+    <string name="address">Адрес</string>
+    <string name="email">Email</string>
+    <string name="phone">Номер телефона</string>
+    <string name="instagram">Ссылка на instagram</string>
+    <string name="gallery">Галерея</string>
+    <string name="no_login_yet">Еще нет учетной записи?</string>
+    <string name="welcome">Добро пожаловать! Рады снова видеть вас!</string>
+    <string name="upload_photo">Загрузить фото</string>
+    <string name="register">Регистрация</string>
+    <string name="password_not_same">Пароли не совпадают</string>
+    <string name="pass_weak">Пароль должен быть длиннее 8 символов</string>
+
+    <!-- MAIN -->
+    <string name="agents">Агенты</string>
+    <string name="about_app">О приложении</string>
+    <string name="app_settings">Настройки приложения</string>
+    <string name="app_version">Версия приложения</string>
+    <string name="exit">Выйти</string>
+    <string name="search">Поиск</string>
+    <string name="forget_pass">Забыли пароль?</string>
+    <string name="input_through">Войти через</string>
+    <string name="continue_btn">Продолжить</string>
+
+    <!-- Settings -->
+    <string name="app_lang">Язык приложения</string>
+    <string name="lang_ru" translatable="false">Русский</string>
+    <string name="lang_ky" translatable="false">Кыргызча</string>
+
+    <!--    Roles description -->
+    <string name="supervisor">Супер</string>
+    <string name="unknown">Неизвестный</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarStyle">
+        <item name="android:background">@color/gray_4</item>
+        <item name="titleCentered">true</item>
+    </style>
+
+    <style name="GreenDatePickerStyle" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/green</item>
+    </style>
+
+</resources>

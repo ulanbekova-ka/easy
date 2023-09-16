@@ -1,0 +1,114 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+android {
+
+    packagingOptions {
+        exclude 'META-INF/gradle/incremental.annotation.processors'
+    }
+
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "kg.hackathon.template"
+        minSdk 23
+        targetSdk 32
+        versionCode 1
+        versionName "0.0.1"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resConfigs "ru"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField 'String', 'BASE_URL', '"http://10.10.5.243:8085/v1/"'
+        }
+
+        release {
+            buildConfigField 'String', 'BASE_URL', '"http://10.10.5.243:8085/v1/"'
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    //Base android
+    implementation libs.core_ktx
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity_ktx
+    implementation libs.fragment_ktx
+    implementation libs.viewmodel
+    implementation libs.multidex
+
+    // retrofit
+    implementation libs.retrofit
+    implementation libs.gson_converter
+    implementation libs.interceptor
+    implementation libs.scalar_converter
+
+    //Orbit-mvi
+    implementation libs.orbit_mvi
+
+    //Encrypt prefs
+    implementation libs.security_crypto
+
+    //Navigation
+    implementation libs.navigation_fragment
+    implementation libs.navigation_ui
+
+    //Hilt
+    implementation libs.hilt
+    kapt libs.hilt_compiler
+
+    //Splash screen
+    implementation libs.splashscreen
+
+    //Room
+    implementation libs.room_runtime
+    kapt libs.room_compiler
+    implementation libs.room_ktx
+
+    // core
+    implementation libs.play_core
+
+    // camera
+    implementation libs.cameraX
+    implementation libs.camera_lifecycle
+    implementation libs.camera_view
+    implementation libs.camera_core
+
+    //glide
+    implementation libs.glide
+    kapt libs.glide_compiler
+
+    //picasso
+    implementation libs.picasso
+
+    //coil
+    implementation libs.coil
+
+    //swipeRefresh
+    implementation libs.swipe_refresh
+
+}

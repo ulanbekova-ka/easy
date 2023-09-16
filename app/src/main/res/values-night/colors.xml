@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_1">#FFFFFF</color>
+    <color name="gray_4">#96939B</color>
+    <color name="black_2">#232524</color>
+    <color name="gray_8">#292B2A</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_1">#A39E9E</color>
+    <color name="camera">#323232</color>
+    <color name="bottom_sheet_background">@color/gray_4</color>
+    <color name="green">#63B175</color>
+    <color name="icons">#FF9900</color>
+</resources>
