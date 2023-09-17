@@ -1,1 +1,1 @@
-Project for hackathon
+EZSHOPPING - ваш надежный помощник в поиске товаров!
